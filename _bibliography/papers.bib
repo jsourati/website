@@ -1,26 +1,48 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
+@article{sourati2017asymptotic,
+  abbr={JMLR},
+  title={Asymptotic analysis of objectives based on fisher information in active learning},
+    author={Sourati, Jamshid and Akcakaya, Murat and Leen, Todd K and Erdogmus, Deniz and Dy, Jennifer G},
+  journal={The Journal of Machine Learning Research},
   volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
+  number={1},
+  pages={1123--1163},
+  year={2017},
+  pdf={https://www.jmlr.org/papers/volume18/15-104/15-104.pdf},
+  publisher={JMLR. org},
+  abstract={Obtaining labels can be costly and time-consuming. Active learning allows a learning algorithm to intelligently query samples to be labeled for a more efficient learning. Fisher information ratio (FIR) has been used as an objective for selecting queries. However, little is known about the theory behind the use of FIR for active learning. There is a gap between the underlying theory and the motivation of its usage in practice. In this paper, we attempt to fill this gap and provide a rigorous framework for analyzing existing FIR-based active learning methods. In particular, we show that FIR can be asymptotically viewed as an upper bound of the expected variance of the log-likelihood ratio. Additionally, our analysis suggests a unifying framework that not only enables us to make theoretical comparisons among the existing querying methods based on FIR, but also allows us to give insight into the development of new active learning approaches based on this objective.}
+  }
+
+@article{sourati2017probabilistic,
+ abbr={TPAMI},
+ title={A probabilistic active learning algorithm based on fisher information ratio},
+    author={Sourati, Jamshid and Akcakaya, Murat and Erdogmus, Deniz and Leen, Todd K and Dy, Jennifer G},
+ abstract={The task of labeling samples is demanding and expensive. Active learning aims to generate the smallest possible training data set that results in a classifier with high performance in the test phase. It usually consists of two steps of selecting a set of queries and requesting their labels. Among the suggested objectives to score the query sets, information theoretic measures have become very popular. Yet among them, those based on Fisher information (FI) have the advantage of considering the diversity among the queries and tractable computations. In this work, we provide a practical algorithm based on Fisher information ratio to obtain query distribution for a general framework where, in contrast to the previous FI-based querying methods, we make no assumptions over the test distribution. The empirical results on synthetic and real-world data sets indicate that this algorithm gives competitive results.},
+ journal={IEEE transactions on pattern analysis and machine intelligence},
+ volume={40},
+ number={8},
+ pages={2023--2029},
+ url={https://ieeexplore.ieee.org/abstract/document/8016395/},
+ year={2017},
+ publisher={IEEE}
+		}
+
+@article{sourati2016classification,
+  title={Classification active learning based on mutual information},
+    author={Sourati, Jamshid and Akcakaya, Murat and Dy, Jennifer G and Leen, Todd K and Erdogmus, Deniz},
+  abstract={Selecting a subset of samples to label from a large pool of unlabeled data points, such that a sufficiently accurate classifier is obtained using a reasonably small training set is a challenging, yet critical problem. Challenging, since solving this problem includes cumbersome combinatorial computations, and critical, due to the fact that labeling is an expensive and time-consuming task, hence we always aim to minimize the number of required labels. While information theoretical objectives, such as mutual information (MI) between the labels, have been successfully used in sequential querying, it is not straightforward to generalize these objectives to batch mode. This is because evaluation and optimization of functions which are trivial in individual querying settings become intractable for many objectives when we are to select multiple queries. In this paper, we develop a framework, where we propose efficient ways of evaluating and maximizing the MI between labels as an objective for batch mode active learning. Our proposed framework efficiently reduces the computational complexity from an order proportional to the batch size, when no approximation is applied, to the linear cost. The performance of this framework is evaluated using data sets from several fields showing that the proposed framework leads to efficient active learning for most of the data sets.},
+  journal={Entropy},
+  volume={18},
+  number={2},
+  url={https://www.mdpi.com/1099-4300/18/2/51},
+  pages={51},
+  year={2016},
+  publisher={Multidisciplinary Digital Publishing Institute}
+		}
+
 
 @article{PhysRev.47.777,
   abbr={PhysRev},
@@ -42,29 +64,4 @@
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
