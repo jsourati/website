@@ -6,7 +6,7 @@ description:
 years: [2017, 2016]
 nav: true
 ---
-List of selected publications by categories in reversed chronological order. For the full list see my [CV]({{ site.url }}/assets/pdf/myCV.pdf)
+Below is a list of my selected publications by categories in reversed chronological order. For the full list see my [CV]({{ site.url }}/assets/pdf/myCV.pdf).
 
 <h3><b> Generic Active Learning </b></h3>
 <div class="publications">
